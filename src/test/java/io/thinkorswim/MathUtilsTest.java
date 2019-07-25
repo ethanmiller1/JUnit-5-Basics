@@ -19,4 +19,18 @@ class MathUtilsTest {
         MathUtils mathUtils = new MathUtils();
         assertEquals(314.1592653589793, mathUtils.computeCircleArea(10), "Should return right circle area");
     }
+
+    @Test
+    void subtract() {
+    }
+
+    @Test
+    void multiply() {
+    }
+
+    @Test
+    void divide() {
+        MathUtils mathUtils = new MathUtils();
+        assertThrows(ArithmeticException.class, () -> mathUtils.divide(1,0), "Divide by zero should throw");
+    }
 }
