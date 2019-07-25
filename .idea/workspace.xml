@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc6d60ae-a7f5-48ef-847a-ee15b70119c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/thinkorswim/MathUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/thinkorswim/MathUtilsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/thinkorswim/MathUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <state relative-caret-position="272">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -235,6 +234,15 @@
     <history-entry file="MathUtilsTest - 2019.07.25 at 12h 26m 39s.xml">
       <configuration name="MathUtilsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MathUtilsTest - 2019.07.25 at 12h 46m 55s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest - 2019.07.25 at 12h 52m 06s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest - 2019.07.25 at 12h 52m 29s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -245,12 +253,12 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
@@ -316,8 +324,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/thinkorswim/MathUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

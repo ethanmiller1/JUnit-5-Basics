@@ -8,12 +8,10 @@ class MathUtilsTest {
 
     @Test
     void test() {
-        MathUtils calc = new MathUtils();
-        int sum = calc.add(0, 1);
-
-        if (sum != 1) {
-            System.out.println("Test failed");
-        }
+        MathUtils mathUtils = new MathUtils();
+        int expected = 1;
+        int actual = mathUtils.add(0, 1);
+        assertEquals(expected, actual);
     }
 
 }
