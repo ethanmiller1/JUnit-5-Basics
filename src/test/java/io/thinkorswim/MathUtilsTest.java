@@ -8,7 +8,12 @@ class MathUtilsTest {
 
     @Test
     void test() {
-        System.out.println("This test ran");
+        MathUtils calc = new MathUtils();
+        int sum = calc.add(0, 1);
+
+        if (sum != 1) {
+            System.out.println("Test failed");
+        }
     }
 
 }
