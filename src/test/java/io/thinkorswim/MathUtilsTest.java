@@ -24,6 +24,7 @@ class MathUtilsTest {
     }
 
     @Test
+    @DisplayName("Testing add method")
     void add() {
         int expected = 1;
         int actual = mathUtils.add(0, 1);
