@@ -84,4 +84,11 @@ class MathUtilsTest {
     void testDisabled() {
         fail("This test should be disabled");
     }
+
+    @RepeatedTest(value = 3)
+    @DisplayName("Repeated Test")
+    void repeatTest(RepetitionInfo repetitionInfo) {
+        int number = repetitionInfo.getCurrentRepetition();
+        assertEquals(1, 2 - 1, "Failed at " + number);
+    }
 }
