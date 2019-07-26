@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc6d60ae-a7f5-48ef-847a-ee15b70119c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/thinkorswim/MathUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/thinkorswim/MathUtilsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,10 +51,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/thinkorswim/MathUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+            <state relative-caret-position="285">
+              <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2092#2093#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -252,9 +252,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MathUtilsTest_add - 2019.07.25 at 14h 53m 39s.xml">
-      <configuration name="MathUtilsTest.add" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MathUtilsTest - 2019.07.25 at 14h 53m 44s.xml">
       <configuration name="MathUtilsTest" configurationId="JUnit" />
     </history-entry>
@@ -280,6 +277,9 @@
       <configuration name="MathUtilsTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MathUtilsTest - 2019.07.25 at 21h 27m 39s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest - 2019.07.26 at 14h 18m 51s.xml">
       <configuration name="MathUtilsTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -363,10 +363,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/thinkorswim/MathUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        <state relative-caret-position="285">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2092#2093#0" expanded="true" />
           </folding>
         </state>
       </provider>
