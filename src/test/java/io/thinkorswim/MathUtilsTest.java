@@ -48,4 +48,11 @@ class MathUtilsTest {
     void divide() {
         assertThrows(ArithmeticException.class, () -> mathUtils.divide(1,0), "Divide by zero should throw");
     }
+
+    @Test
+    @Disabled
+    @DisplayName("TDD method. Should not run.")
+    void testDisabled() {
+        fail("This test should be disabled");
+    }
 }
