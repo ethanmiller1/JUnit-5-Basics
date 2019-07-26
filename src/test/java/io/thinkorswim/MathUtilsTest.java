@@ -27,6 +27,7 @@ class MathUtilsTest {
         System.out.print("Cleaning up...");
     }
 
+    // Nest methods inside a class to test multiple test cases.
     @Nested
     @DisplayName("Testing add method")
     class Add {
@@ -44,7 +45,7 @@ class MathUtilsTest {
         void addNegative() {
             int expected = -2;
             int actual = mathUtils.add(-1, -1);
-            assertEquals(expected, actual, "The add method should add two numbers");
+            assertEquals(expected, actual, () -> "Should return " + expected + " but returned " + actual);
         }
     }
 
@@ -57,6 +58,7 @@ class MathUtilsTest {
     void subtract() {
     }
 
+    // Use assert all to avoid nesting methods inside a class to test multiple test cases.
     @Test
     @DisplayName("Multiply method")
     void multiply() {
