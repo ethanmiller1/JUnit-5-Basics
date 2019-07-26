@@ -1,17 +1,26 @@
 package io.thinkorswim;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-
+import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
 
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class MathUtilsTest {
 
     MathUtils mathUtils;
 
+    @BeforeAll
+    static void beforeAllInit() {
+        System.out.println("This needs to run before all");
+    }
+
     @BeforeEach
     void init() {
         mathUtils = new MathUtils();
+    }
+
+    @AfterEach
+    void cleanup() {
+        System.out.print("Cleaning up...");
     }
 
     @Test
