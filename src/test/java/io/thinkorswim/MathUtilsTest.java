@@ -1,7 +1,11 @@
 package io.thinkorswim;
 
 import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.condition.EnabledOnOs;
+import org.junit.jupiter.api.condition.OS;
+
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.*;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 class MathUtilsTest {
@@ -23,12 +27,25 @@ class MathUtilsTest {
         System.out.print("Cleaning up...");
     }
 
-    @Test
+    @Nested
     @DisplayName("Testing add method")
-    void add() {
-        int expected = 1;
-        int actual = mathUtils.add(0, 1);
-        assertEquals(expected, actual, "The add method should add two numbers");
+    class Add {
+
+        @Test
+        @DisplayName("When adding two positive numbers")
+        void addPositive() {
+            int expected = 1;
+            int actual = mathUtils.add(0, 1);
+            assertEquals(expected, actual, "The add method should add two numbers");
+        }
+
+        @Test
+        @DisplayName("When adding two negative numbers")
+        void addNegative() {
+            int expected = -2;
+            int actual = mathUtils.add(-1, -1);
+            assertEquals(expected, actual, "The add method should add two numbers");
+        }
     }
 
     @Test
@@ -46,6 +63,9 @@ class MathUtilsTest {
 
     @Test
     void divide() {
+        // If required conditions are false, skip test.
+        boolean isServerUp = false;
+        assumeTrue(isServerUp);
         assertThrows(ArithmeticException.class, () -> mathUtils.divide(1,0), "Divide by zero should throw");
     }
 
