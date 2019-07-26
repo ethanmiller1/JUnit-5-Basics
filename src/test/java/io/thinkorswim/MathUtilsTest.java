@@ -30,6 +30,7 @@ class MathUtilsTest {
     // Nest methods inside a class to test multiple test cases.
     @Nested
     @DisplayName("Testing add method")
+    @Tag("Math")
     class Add {
 
         @Test
@@ -50,6 +51,7 @@ class MathUtilsTest {
     }
 
     @Test
+    @Tag("Circle")
     void computeCircleArea() {
         assertEquals(314.1592653589793, mathUtils.computeCircleArea(10), "Should return right circle area");
     }
@@ -58,8 +60,12 @@ class MathUtilsTest {
     void subtract() {
     }
 
+    @Test
+
+
     // Use assert all to avoid nesting methods inside a class to test multiple test cases.
     @Test
+    @Tag("Math")
     @DisplayName("Multiply method")
     void multiply() {
         // assertEquals(4, mathUtils.multiply(2, 2), "Should return the right product");
